@@ -1,0 +1,36 @@
+footer {
+	box-shadow: 0 -2px 5px 10px #EDE3D1;
+    height: auto;
+    background-color: #EDE3D1;
+}
+
+footer hr{
+    width: 65%;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.footer-row {
+    max-width: 65%;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
+}
+
+.grid-col ul > li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.div-payment {
+    grid-template-columns: auto;
+}
+
+.div-payment ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}

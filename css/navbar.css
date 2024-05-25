@@ -1,0 +1,77 @@
+.navbar {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    font-family: sans-serif;
+}
+
+
+.nav-item ul, button{
+    display: flex;
+}
+
+.nav-item li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 28px;
+    margin: 0 auto;
+    padding-left: 0.3rem;
+}
+
+.nav-item li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#logo {
+    padding-left: 10px;
+}
+
+#logo ul {
+    height: 60px;
+}
+
+#logo li {
+    margin: auto 0;
+}
+
+#logo li a {
+    font-size: 28px;
+}
+
+#logo img {
+    height: 45px;
+    width: 45px;
+    margin-top: 5px;
+}
+
+#navegation li a{
+    padding: 0 1.5rem;
+    font-size: 22px;
+}
+
+#social li{
+    margin: auto 0;
+    padding: 0 0.2rem 0 0.1rem;
+    font-size: 14px;
+}
+
+#social img {
+    margin: 0;
+    padding-top: 6px;
+    height: 20px;
+    width: 20px;
+}
+
+#sign_in {
+    padding: 0.4rem 0.8rem;
+    border-radius: 2rem;
+    color: #fff;
+    border: 1px #000;
+    background-color: #000;
+    margin-right: 20px;
+    margin-left: 10px;
+}
