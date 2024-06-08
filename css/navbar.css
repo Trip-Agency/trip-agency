@@ -56,6 +56,12 @@ header {
     font-size: 22px;
 }
 
+#navegation li a:hover{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #002046;
+    color: #002046;
+}
+
 #social li{
     margin: auto 0;
     padding: 0 5px;
@@ -75,5 +81,15 @@ header {
     color: #fff;
     border: 1px #000;
     background-color: #000;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 200ms ease-in-out;
+}
+
+#sign_in:hover {
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
+    border: 1px #000;
+    background-color: #002046;
     cursor: pointer;
 }
