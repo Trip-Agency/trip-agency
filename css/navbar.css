@@ -1,11 +1,14 @@
+header {
+    background-color: #628EC4;
+}
+
 .navbar {
-    width: 65%;
+    width: min(90%, 1000px);
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
     align-items: center;
     height: 60px;
-    font-family: sans-serif;
 }
 
 
@@ -18,12 +21,11 @@
     list-style: none;
     font-size: 28px;
     margin: 0 auto;
-    padding-left: 0.3rem;
 }
 
 .nav-item li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 #logo {
@@ -32,6 +34,7 @@
 
 #logo ul {
     height: 60px;
+    gap: 10px;
 }
 
 #logo li {
@@ -55,7 +58,7 @@
 
 #social li{
     margin: auto 0;
-    padding: 0 0.2rem 0 0.1rem;
+    padding: 0 5px;
     font-size: 14px;
 }
 
@@ -72,6 +75,5 @@
     color: #fff;
     border: 1px #000;
     background-color: #000;
-    margin-right: 20px;
-    margin-left: 10px;
+    cursor: pointer;
 }
